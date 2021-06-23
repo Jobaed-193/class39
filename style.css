@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text-left{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fixed-width{
+  width: 1270px;
+  margin: auto;
+}
+
+
+/* header */
+
+.header{
+  background-color: #22c3a3;
+  
+}
+
+.logo-left{
+  width: 30%;
+  float: left;
+  font-size: 28px;
+}
+.logo-left a{
+  /* margin-top: 20px; */
+  margin-left: 21px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 12px;
+}
+
+.menu-right{
+  width: 70%;
+  float: right;
+}
+
+.header ul{
+  /* text-align: center; */
+  text-align: right;
+}
+.header ul li{
+  display: inline-block;
+}
+.header ul li a{
+  display: block;
+  font-size: 20px;
+  padding: 0 15px;
+  /* line-height: 46px; */
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  line-height: 60px;
+  transition: .4s;
+}
+.header ul li a:hover{
+color: blue;
+}
+
+/* banner  */
+
+
+.banner{
+  background-image: url(./img/header-bg01.jpg);
+  padding: 300px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+ background-attachment: fixed;
+}
+
+.banner h1{
+  font-size: 35px;
+  color:white;
+}
+
+.banner p{
+  font-size: 18px;
+  color: white;
+  margin-top: 15px;
+}
+
+.banner a{
+  font-size: 18px;
+margin-top: 17px;
+display: inline-block;
+text-decoration: none;
+color: white;
+border: 1px solid white;
+padding: 10px 20px;
+transition: .4s;
+position: relative;
+}
+
+
+
+
+.banner a:hover{
+ 
+  background-color: teal;
+}
+/* service */
+
+
+.service-cont {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.service-card.text-center {
+  margin-top: 65px;
+}
+
+.card{
+  width: 20%;
+float: left;
+margin-left: 54px;
+border: none;
+}
+
+.card span{
+  font-size: 35px;
+  color: #0dbf9b
+}
+.card h3{
+  font-size: 27px;
+  font-weight: bold;
+  color: #596d86;
+  margin-top: 15px;
+}
+
+.card p{
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.faka{
+  margin-top: 250px;
+height: 2px;
+background-color: #0dbf9b;
+}
+
+
+/* about */
+
+.about-img{
+
+  width: 35%;
+  float: left;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.about-cont{
+
+  width:60% ;
+  float: right;
+  margin-top: 55px;
+ 
+}
+.about-head{
+  margin-top: 40px;
+}
+.about-head  h3{
+  font-size: 30px;
+}
+.about-head  p{
+  font-size: 16px;
+margin-top: 20px;
+}
+
+.about-cont h4{
+  font-size: 20px;
+  color: #7b7e8f;
+}
+
+.about-cont p{
+  font-size: 17px;
+color: #7b7e8f;
+}
+
+
+/* contact */
+
+.contact{
+
+  background-color: #f6f6f6;
+  margin-top: 60px;
+  height: 335px;
+}
+
+.contact h2{
+  font-size: 30px;
+margin-top: 55px;
+display: inline-block;
+}
+.contact p{
+  font-size: 16px;
+margin-top: 37px;
+}
+
+.contact-info{
+  width: 30%;
+  float: left;
+
+  margin-top: 50px;
+}
+
+.contact-info span{
+  font-size: 20px;
+  color: #0dbf9b;
+}
+
+.contact-info p{
+  font-size: 13px;
+  margin-top: 13px;
+}
+
+/* footer */
+
+.footer{
+  background-color:#0dbf9b ;
+  padding: 15px 0;
+}
+
+.icon ul{
+  text-align: center;
+}
+.icon ul li{
+  display: inline-block;
+}
+
+.icon ul li a{
+
+  font-size: 20px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+background-color: white;
+display: inline-block;
+margin-left: 10px;
+border-radius: 50%;
+color: #0dbf9b;
+}
+
+.copyright{
+  background-color: #222222;
+  padding: 15px 0;
+}
+
+.copyright p{
+  font-size: 16px;
+  text-align: center;
+  color: #606367;
+}
